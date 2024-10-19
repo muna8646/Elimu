@@ -1,0 +1,78 @@
+/* Dashboard.css */
+
+.dashboard-container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px; /* Narrower sidebar width */
+  background-color: #f7f7f7;
+  padding: 15px 0;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sidebar-header h2 {
+  font-size: 1.2rem; /* Smaller font for the title */
+  color: #333;
+}
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar nav ul li {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar nav ul li a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.9rem; /* Smaller font size */
+}
+
+.sidebar nav ul li:hover {
+  background-color: #eaeaea; /* Highlight on hover */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d3d3d3; /* Gray background for the header */
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.welcome-message {
+  font-size: 1.1rem; /* Smaller welcome message */
+  margin-right: 20px;
+}
+
+.user-button {
+  margin-left: auto;
+}
+
+.welcome-section {
+  margin-top: 20px;
+}
